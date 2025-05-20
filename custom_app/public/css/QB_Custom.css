@@ -1,0 +1,275 @@
+:root {
+	--bg-color: #ffffff;
+	--btn-primary: linear-gradient(105deg, #453D89 4.3%, #C8499A 98.36%);
+	--btn-secondary: #943993;
+	--secondary: #000000;
+	--navbar-bg: linear-gradient(105deg, #453D89 4.3%, #C8499A 98.36%);
+	--text-btn-color: white;
+	--table-border-color: #C8499A; /* fallback solid color */
+	--btn-default-hover-bg: white;
+	--sidebar-select-color: #017E8420;
+	--text-base: 14px;
+  }
+  
+  /* LOGIN PAGE */
+  [data-path="login"] .navbar-light {
+	border-bottom: 1px solid #60a5fa !important; /* fallback for --blue-400 */
+	background: white;
+  }
+  
+  [data-path="login"] .web-footer {
+	border-top: 1px solid #60a5fa !important;
+  }
+   
+  .for-login .page-card {
+	border: 1px solid #60a5fa !important;
+  }
+  
+  .for-login .btn-login {
+	background-color: #1e3a8a !important;
+	border: none !important;
+	color: white;
+  }
+  
+  .for-login .btn-login:hover {
+	background-color: #2563eb !important;
+	border: none !important;
+	color: white;
+  }
+  
+  .for-login .page-card-head h4 {
+	color: black !important;
+  }
+  
+  .for-login .form-control {
+	background-color: white !important;
+	border: solid 1px #60a5fa !important;
+  }
+  
+  .for-login .form-control:focus,
+  .for-login .form-control:hover {
+	box-shadow: 0 0 0 1px #93c5fd !important;
+  }
+  
+  .for-login .forgot-password-message > * {
+	color: #2563eb !important;
+  }
+  
+  /* NAVBAR DESIGN */
+  .navbar .navbar-expand span,
+  .navbar .navbar-expand li a,
+  #navbar-breadcrumbs a,
+  .navbar .nav-item button.nav-link {
+	color: var(--btn-default-hover-bg) !important;
+  }
+  
+  #navbar-breadcrumbs li.disabled a {
+	color: rgba(255, 255, 255, 0.4) !important;
+  }
+  
+  .nav-tabs {
+	border: none;
+  }
+  
+  .search-bar span {
+	color: black !important;
+  }
+  
+  /* PAGE DESIGN */
+  body,
+  .page-container {
+	background-color: var(--bg-color) !important;
+  }
+  
+  .page-head {
+	background-color: white !important;
+  }
+  
+  .page-content .layout-main-section {
+	background-color: white;
+  }
+  
+  .datatable .dt-cell {
+	background-color: #fff !important;
+  }
+  
+  .es-icon {
+	fill: #943993 !important;
+	stroke: #943993 !important;
+  }
+  
+  /* DASHBOARD DESIGN */
+  .desk-sidebar-item {
+	line-height: 2.2;
+  }
+  
+  .widget.links-widget-box,
+  .widget.dashboard-widget-box {
+	border: 1px solid #C8499A; /* fallback for gradient border */
+  }
+  
+  .widget.links-widget-box .widget-title {
+	background-color: white;
+	color: #C8499A !important;
+  }
+  
+  .widget-body .link-item {
+	margin-bottom: 5px !important;
+  }
+  
+  .icon-md {
+	width: 30px;
+	height: 30px;
+  }
+  
+  .onboard-spotlight {
+	color: var(--secondary) !important;
+  }
+  
+  a.onboard-spotlight .link-content:hover {
+	color: var(--btn-secondary) !important;
+  }
+  
+  .dropdown-notifications .es-icon {
+	fill: white !important;
+	stroke: white !important;
+  }
+  
+  /* LIST GRID DESIGN */
+  .list-filters .form-control,
+  .standard-filter-section .form-control {
+	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+  }
+  
+  .level.list-row-head,
+  .level.list-row-head .level-item {
+	font-weight: bold;
+	background-color: #e5e7eb;
+  }
+  
+  .list-row-container .list-row:hover {
+	background-color: var(--sidebar-select-color);
+  }
+  
+  /* FORM DESIGN */
+  .form-control,
+  .frappe-control .ql-editor:not(.read-mode),
+  .ace_editor {
+	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
+  }
+  
+  .ql-editor:focus,
+  .ace_editor:focus,
+  .form-control:focus,
+  .form-control:hover {
+	box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.25) !important;
+  }
+  
+  .form-control:focus {
+	background-color: #714b6725;
+  }
+  
+  .frappe-control.has-error input:hover,
+  .frappe-control.has-error input:focus {
+	box-shadow: 0 0 0 2px #eb909180 !important;
+  }
+  
+  option {
+	background-color: white !important;
+  }
+  
+  .grid-row-open {
+	box-shadow: 0 0 0 3px #C8499A !important;
+  }
+  
+  .awesomplete [role="option"]:hover,
+  .awesomplete li:hover {
+	background-color: #e5e7eb !important;
+  }
+  
+  input[type="checkbox"]:checked {
+	background-color: var(--btn-secondary) !important;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 8 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 4.00001L2.66667 5.80001L7 1.20001' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+  }
+  
+  /* BUTTON DESIGN */
+  .btn {
+	border-radius: 0.25rem !important;
+  }
+  
+  .btn.btn-primary {
+	color: var(--text-btn-color);
+	background: var(--btn-primary);
+	border: 2px solid #C8499A !important;
+  }
+  
+  .btn.btn-primary:hover {
+	background: var(--btn-default-hover-bg) !important;
+	border: 2px solid #C8499A !important;
+	color: black;
+  }
+  .btn.btn-default {
+	color: var(--text-btn-color);
+	background: var(--btn-primary);
+	border: 2px solid #C8499A !important;
+  }
+  
+  .btn.btn-default:hover {
+	background: var(--btn-default-hover-bg) !important;
+	border: 2px solid #C8499A !important;
+	color: black;
+  }
+  
+  .standard-actions .btn.btn-secondary,
+  .custom-actions .btn.btn-default {
+	/* background: var(--secondary) !important; */
+	border: 2px solid #C8499A !important;
+	/* color: var(--text-btn-color); */
+  }
+  
+  .standard-actions .btn.btn-secondary:hover,
+  .custom-actions .btn.btn-default:hover {
+	background: var(--btn-default-hover-bg) !important;
+	color: black;
+  }
+  
+  .btn.btn-default {
+	background: var(--btn-default-hover-bg) !important;
+	border: 1px solid var(--btn-secondary) !important;
+	color: black;
+  }
+  
+  .btn.grid-add-row {
+	background: var(--btn-default-hover-bg) !important;
+	border: 1px solid var(--btn-secondary) !important;
+	color: black;
+  }
+  
+  .btn.btn-new-doc {
+	background: var(--btn-primary) !important;
+	color: var(--text-btn-color);
+	border: 2px solid #C8499A !important;
+  }
+  
+  .btn.btn-new-doc:hover {
+	background: var(--btn-default-hover-bg) !important;
+	border: 2px solid #C8499A !important;
+	color: black;
+  }
+  
+  .custom-actions .btn {
+	font-size: 12px !important;
+  }
+  
+  .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+  .btn-group > .btn-group:not(:last-child) > .btn {
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+  }
+  
+  .btn-group > .btn:not(:first-child),
+  .btn-group > .btn-group:not(:first-child) > .btn {
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+  }
+  
