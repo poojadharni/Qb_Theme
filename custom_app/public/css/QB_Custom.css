@@ -2,13 +2,14 @@
 	--bg-color: #ffffff;
 	--btn-primary: linear-gradient(105deg, #453D89 4.3%, #C8499A 98.36%);
 	--btn-secondary: #943993;
-	--secondary: #000000;
+	--secondary: linear-gradient(105deg, #453D89 4.3%, #C8499A 98.36%);;
 	--navbar-bg: linear-gradient(105deg, #453D89 4.3%, #C8499A 98.36%);
 	--text-btn-color: white;
 	--table-border-color: #C8499A; /* fallback solid color */
 	--btn-default-hover-bg: white;
 	--sidebar-select-color: #017E8420;
 	--text-base: 14px;
+  /* --border-color: #C8499A; */
   }
   
   /* LOGIN PAGE */
@@ -235,13 +236,13 @@
   
   .btn.btn-default {
 	background: var(--btn-default-hover-bg) !important;
-	border: 1px solid var(--btn-secondary) !important;
+	border: 1px solid #C8499A !important;
 	color: black;
   }
   
   .btn.grid-add-row {
 	background: var(--btn-default-hover-bg) !important;
-	border: 1px solid var(--btn-secondary) !important;
+	border: 1px solid #C8499A !important;
 	color: black;
   }
   
@@ -272,4 +273,14 @@
 	border-top-left-radius: 0 !important;
 	border-bottom-left-radius: 0 !important;
   }
-  
+ .layout-main .layout-main-section {
+        border: 1px solid #C8499A !important;
+        padding: var(--padding-md);
+        margin-bottom: var(--margin-sm);
+    }
+    .form-page {
+      border-radius: var(--border-radius-md);
+      border: 1px solid #C8499A !important ;
+      box-shadow: none;
+      background-color: var(--card-bg);
+  }
