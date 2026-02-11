@@ -99,6 +99,35 @@
 	stroke: #943993 !important;
   }
   
+  /* SIDEBAR STYLES */
+  .sidebar-menu .desk-sidebar-item {
+    margin: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+
+  .sidebar-menu .desk-sidebar-item:hover {
+    background: rgba(200, 73, 154, 0.1);
+  }
+
+  .sidebar-menu .desk-sidebar-item.active {
+    background: rgba(200, 73, 154, 0.2);
+  }
+
+  .sidebar-menu .desk-sidebar-item.active a,
+  .sidebar-menu .desk-sidebar-item.active .sidebar-item-label {
+    color: #C8499A !important;
+  }
+
+  .sidebar-menu .sidebar-icon {
+    color: #6c757d;
+    margin-right: 8px;
+  }
+
+  .sidebar-menu .desk-sidebar-item.active .sidebar-icon {
+    color: #C8499A !important;
+  }
+  
   /* DASHBOARD DESIGN */
   .desk-sidebar-item {
 	line-height: 2.2;
@@ -284,3 +313,22 @@
       box-shadow: none;
       background-color: var(--card-bg);
   }
+
+  /* Shortcut Widget Box Border */
+.widget.shortcut-widget-box {
+    cursor: pointer;
+    padding: 10px 12px;
+    border: 1px solid #C8499A !important;
+}
+.current-color {
+    color: #943993 !important;
+    
+}
+
+.icon-container{
+    background-color: #943993 !important;
+  }
+
+.icon, .es-icon {
+    stroke: #943993 !important;
+}
