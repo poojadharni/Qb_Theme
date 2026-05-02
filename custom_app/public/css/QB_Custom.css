@@ -284,3 +284,36 @@
       box-shadow: none;
       background-color: var(--card-bg);
   }
+  .modal .form-section .form-column:last-child {
+    padding-right: 10 !important;
+}
+.modal .form-section .form-column:first-child {
+    padding-left: 10 !important;
+}
+
+/* Default state */
+.standard-sidebar .standard-sidebar-item,
+.desk-sidebar .standard-sidebar-item {
+    color: #453D89 !important;
+}
+
+/* Hover + Selected background */
+.standard-sidebar .standard-sidebar-item:hover,
+.standard-sidebar .standard-sidebar-item.selected,
+.desk-sidebar .standard-sidebar-item:hover,
+.desk-sidebar .standard-sidebar-item.selected {
+    background-color: #C8499A !important;
+}
+
+/* FORCE text to white (important fix) */
+.standard-sidebar .standard-sidebar-item:hover,
+.standard-sidebar .standard-sidebar-item.selected,
+.standard-sidebar .standard-sidebar-item:hover *,
+.standard-sidebar .standard-sidebar-item.selected *,
+.desk-sidebar .standard-sidebar-item:hover,
+.desk-sidebar .standard-sidebar-item.selected,
+.desk-sidebar .standard-sidebar-item:hover *,
+.desk-sidebar .standard-sidebar-item.selected * {
+    color: #ffffff !important;
+}
+
